@@ -5,16 +5,16 @@
 */
 int main(void)
 {
-	char hamza = 'a';
+	char henry = 'a';
 
-	char henry = 'A';
-for  (hamza = 'a' ; hamza <= 'z'; hamza++)
-{
-	putchar(hamza);
-}
-for (henry = 'A' ; henry <= 'Z'; henry++)
+	char hamza = 'A';
+for  (henry = 'a' ; henry <= 'z'; henry++)
 {
 	putchar(henry);
+}
+for (hamza = 'A' ; hamza <= 'Z'; hamza++)
+{
+	putchar(hamza);
 }
 	purchar('\n');
 
