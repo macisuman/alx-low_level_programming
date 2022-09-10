@@ -1,8 +1,8 @@
 #include <stdio.h>
 /**
-* main - Amaka dey disappoint
-* Return Always 0 (success)
-*/
+ * main - amaka dey disappoint
+ * Return: Always 0 (success)
+ */
 int main(void)
 {
 	char hamza = 'a';
