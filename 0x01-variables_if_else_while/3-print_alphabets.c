@@ -6,13 +6,15 @@
 int main(void)
 {
 	char henry = 'a';
+
 	char hamza = 'A';
 
-for (henry = 'a'; henry <= 'z'; henry++)
+	for (henry = 'a'; henry <= 'z'; henry++)
+
 {
 		putchar(henry);
 }
-for (hamza = 'A'; hamza <= 'Z'; hamza++)
+	for (hamza = 'A'; hamza <= 'Z'; hamza++)
 {
 		putchar(hamza);
 }
