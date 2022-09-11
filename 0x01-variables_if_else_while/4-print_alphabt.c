@@ -1,18 +1,21 @@
 #include <stdio.h>
-/**
+/*
  * main - When I was having that alphabet soup
  * Return: Always 0 (success)
  */
 int main(void)
 {
 char letter = 'a';
+
 while (letter <= 'z')
 {
-	if (letter != 'e' && letter != 'q');
+	
+if (letter != 'e' && letter != 'q');
+
 {
-putchar(letter);
+	putchar(letter);
 }
 letter++;
 }
-return (0)
+return (0);
 }
