@@ -13,6 +13,8 @@ for  (henry = 'a' ; henry <= 'z'; henry++)
 	putchar(henry);
 
 }
+purchar("\n");
+ 
 for (hamza = 'A' ; hamza <= 'Z'; hamza++)
 {
 	putchar(hamza);
