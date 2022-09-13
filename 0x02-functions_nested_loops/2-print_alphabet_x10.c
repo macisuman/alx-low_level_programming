@@ -1,7 +1,7 @@
 #include "main.h"
 /**
-* print_alphabet - print alphabet 10 times
-* return: void
+* print_alphabet_x10 - print alphabet 10 times
+* Return: void
 */
 
 void print_alphabet_x10(void)
@@ -11,7 +11,7 @@ void print_alphabet_x10(void)
 	int n = 0;
 
 	for (n = 0; n <= 9; n++)
-	{
+{
 
 	while (alpha <= 'z')
 {
