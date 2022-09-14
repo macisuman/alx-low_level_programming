@@ -1,21 +1,21 @@
 #include "main.h"
-/*
+/**
 * _abs - computes the value of an integer
-* @n - is an integer
+* @n: is n integer used for the argument of the function
 * main - please work
-* Return - always 0
+* Return: 0
 */
 
-int _abs(int)
+int _abs(int n)
 {
 	int n;
 
-	if (n >= 0)
+	if (n > 0 && n == 0)
 {
-	return ('n');
+	return (n);
 }
 else
 {
-	return ('n');
+	return (n * -1);
 }
 }
