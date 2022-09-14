@@ -1,6 +1,6 @@
 #include "main.h"
 /**
-* _islower - if statement
+* _islower - another if statement
 * @c: Na wa for betty sha
 * Return: always 0 (success)
 */
