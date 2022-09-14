@@ -5,7 +5,7 @@
 * Return: 0 always
 */
 
-int print_last_digit(int n);
+int print_last_digit(int n)
 {
 	int new = n % 10;
 
@@ -13,9 +13,8 @@ int print_last_digit(int n);
 
 	new = new * -1;
 
-	_putchar(new + '0');
-
-
+	_putchar(new);
+	
 	return (new);
 
 }
