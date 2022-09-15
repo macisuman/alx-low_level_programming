@@ -3,6 +3,7 @@
 /**
 * print_to_98 - prints all integers to 98
 * @n: starting integer
+* Return: void
 */
 
 void print_to_98(int n)
@@ -18,7 +19,7 @@ void print_to_98(int n)
 	{
 		while (n > 98)
 		{
-			printf("%d, ", n++);
+			printf("%d, ", n--);
 		}
 	}
 
