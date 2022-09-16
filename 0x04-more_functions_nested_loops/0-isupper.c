@@ -12,4 +12,6 @@ int _isupper(int c)
 	else
 		return (0);
 
+	putchar('\n');
+
 }
