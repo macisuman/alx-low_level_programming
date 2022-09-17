@@ -1,5 +1,4 @@
 #include "main.h"
-
 /**
  * print_square - draws square
  * @size: l & w
