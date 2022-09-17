@@ -1,22 +1,20 @@
 #include <stdio.h>
 /**
-* main -finding and printing out the sum total of the multiples of five
-* Return: always returns zero to my satifaction
-*/
-
-#int main(void)
+ * main -finding and printing out the sum tota of the multiples of five
+ * Return: always returns zero to my satifaction
+ */
+int main(void)
 {
-	int num = 0, sum;
+	int num = 0, sumOf;
 
 	while (num < 1024)
+	{		num++;
+	if (num % 5 == 0 || num % 3 == 0)
 	{
-		num++;
-		if (num % 5 == 0 || num % 3 == 0)
-		{
-			sum += num;
-		}
+		sumOf += num;
 	}
-	printf("%d", sum);
-	printf("\n");
-	return (0);
+}
+printf("%d", sumOf);
+printf("\n");
+return (0);
 }
