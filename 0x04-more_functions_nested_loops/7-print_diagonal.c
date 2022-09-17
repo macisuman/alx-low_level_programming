@@ -1,5 +1,4 @@
 #include "main.h"
-
 /**
 * print_diagonal - draws line
 * @n: number og\f lines
