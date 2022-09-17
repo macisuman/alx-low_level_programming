@@ -8,10 +8,10 @@
 void more_numbers(void)
 
 {
-	int n = 0;
+	int n = '0';
 	int line;
 	int repeat = 0;
-	int limit = 9;
+	int limit = '9';
 
 	for (line = 0; line < 10; line++)
 {
