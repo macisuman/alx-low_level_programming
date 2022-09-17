@@ -1,5 +1,4 @@
 #include <stdio.h>
-
 /**
  * main - fibonacii prints and adds number next to itself
  * Return: always returning zero
