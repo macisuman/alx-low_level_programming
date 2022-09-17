@@ -1,4 +1,5 @@
 #include <stdio.h>
+
 /**
  * main - program prints first number and adds it to previous and print again
  * Return: always 0
