@@ -6,6 +6,10 @@
 
 void _puts(char *str);
 {
-	_putchar(str);
+
+	char i[] = str;
+
+
+	_putchar(i[]);
 	_putchar('\n');
 }
