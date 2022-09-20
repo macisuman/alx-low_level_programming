@@ -1,4 +1,5 @@
 #include "main.h"
+
 /**
  * puts2 - alt characters
  * @str: the stringgs

@@ -1,4 +1,5 @@
 #include "main.h"
+
 /**
  * rev_string - prints d string in reverse order
  * @s: is the stribg to be reversed
