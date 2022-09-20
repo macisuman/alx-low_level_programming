@@ -5,7 +5,7 @@
  * Return: empty
  */
 void puts_half(char *str)
-{i
+{
 	int i, j, max;
 
 	i = 0;
@@ -15,7 +15,7 @@ void puts_half(char *str)
 	}
 	max = i;
 	j = max / 2;
-	while (j <= max)
+	while (j == max)
 	{
 		_putchar(str[j]);
 		j++;
