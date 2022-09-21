@@ -1,5 +1,4 @@
 #include "main.h"
-#include <stdio.h>
 /**
 * _strcat - concatenante two strings
 * @dest: variable one
@@ -9,7 +8,8 @@
 
 char *_strcat(char *dest, char *src)
 {
-	int dest, src, length, j;
+	char dest[], src[];
+	int length, j;
 
 	length = 0;
 
