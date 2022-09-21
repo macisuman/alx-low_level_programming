@@ -11,5 +11,7 @@ char *_strcat(char *dest, char *src)
 {
 	int j;
 
-	j = *(*dest + *src);
+	j = *dest;
+
+	*dest = _strcat(j, *src);
 }
