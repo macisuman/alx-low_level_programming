@@ -1,10 +1,9 @@
-#include "holberton.h"
+#include "main.h"
+
 /**
  * print_chessboard - prints the chessboard
- *
  * @a: the row of the array
- *
- * Return: nothing
+ * Return: void
  */
 
 void print_chessboard(char (*a)[8])

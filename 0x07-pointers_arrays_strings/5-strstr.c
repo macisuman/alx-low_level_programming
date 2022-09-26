@@ -1,13 +1,10 @@
-#include <stdlib.h>
-#include "holberton.h"
+#include "main.h"
+
 /**
 * _strstr - locates a substring
-*
-* @haystack: the longer string to search
-* @needle: the substring to search for
-*
-* Return: a pointer to the beginning of the located substring, or NULL if
-* the substring is not found.
+* @haystack: longer string to search
+* @needle: substring to search for
+* Return: a pointer to the beginning of the located substring
 */
 
 char *_strstr(char *haystack, char *needle)
