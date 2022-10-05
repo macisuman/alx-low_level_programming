@@ -126,4 +126,10 @@ int is_palindrome(char *s);
 
 int wildcmp(char *s1, char *s2);
 
+#ifndef _main_h_
 
+#define _main_h_
+
+int _putchar(charc);
+
+#endif
