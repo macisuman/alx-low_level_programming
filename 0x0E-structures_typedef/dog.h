@@ -1,5 +1,5 @@
 #include <stdio.h>
-
+#include "main.h"
 /**
 * struct dog - structure being created
 * @name: name of the dog
@@ -14,7 +14,3 @@ struct dog
 	char *owner;
 };
 
-int main (void)
-{
-	struct dog;
-}
